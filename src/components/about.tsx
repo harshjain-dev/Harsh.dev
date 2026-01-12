@@ -1,4 +1,4 @@
-import image_7fbb37055f3effe802ec34078e41d953a940d5a3 from 'figma:asset/resume_image.png';
+import image_7fbb37055f3effe802ec34078e41d953a940d5a3 from 'assets/resume_image.png';
 import { Card, CardContent } from "./ui/card";
 import { motion } from "motion/react";
 
