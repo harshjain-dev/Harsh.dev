@@ -1,7 +1,6 @@
-import image_7fbb37055f3effe802ec34078e41d953a940d5a3 from 'figma:asset/7fbb37055f3effe802ec34078e41d953a940d5a3.png';
+import image_7fbb37055f3effe802ec34078e41d953a940d5a3 from 'figma:asset/resume_image.png';
 import { Card, CardContent } from "./ui/card";
 import { motion } from "motion/react";
-import resumeImage from 'figma:asset/64050ffa91b72c354435c6c4a55431c2fbb64b41.png';
 
 export function About() {
   return (
@@ -48,9 +47,15 @@ export function About() {
             <div>
               <h3 className="mb-4">Professional Journey</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Senior Android Developer with 7+ years of experience designing, building, and scaling 
-                consumer and fintech apps used by millions. Proven expertise in Kotlin, Jetpack Compose, 
-                Coroutines, Hilt, and scalable MVVM/MVP architecture.
+                Product-minded Senior Android Engineer with 7+ years of experience
+designing and scaling consumer apps for millions of users. Expert in
+Android System Design, specializing in Clean Architecture,
+modularization, and migrating legacy codebases through robust
+Abstractions. Highly proficient in modern state management patterns
+including MVVM and MVI, combined with Kotlin, Jetpack Compose, and
+Coroutines to deliver high-performance experiences. Passionate about AIaugmented
+workflows and collaborating with cross-functional teams to
+simplify complex product usability.
               </p>
             </div>
 
