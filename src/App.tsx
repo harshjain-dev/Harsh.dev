@@ -8,8 +8,14 @@ import Projects from './components/sections/Projects';
 import Blog from './components/sections/Blog';
 import Contact from './components/sections/Contact';
 import Footer from './components/layout/Footer';
+import { useEffect } from 'react';
+import { initGA, logPageView } from './utils/analytics';
 
 function App() {
+  useEffect(() => {
+    initGA();
+    logPageView();
+  }, []);
   return (
     <div className="antialiased selection:bg-btn-dark selection:text-surface-1 font-sans">
       <Navbar />
